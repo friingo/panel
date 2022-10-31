@@ -1,10 +1,15 @@
+<<<<<<< Updated upstream
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+=======
+# Dependencies
+>>>>>>> Stashed changes
 /node_modules
 /.pnp
 .pnp.js
 
+<<<<<<< Updated upstream
 # testing
 /coverage
 
@@ -12,12 +17,28 @@
 /build
 
 # misc
+=======
+# Production
+/build
+
+# Misc
+>>>>>>> Stashed changes
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+<<<<<<< Updated upstream
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development
+/.vscode
+>>>>>>> Stashed changes
