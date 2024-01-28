@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.friingo-bg {
+	background: linear-gradient(to right, var(--tw-gradient-from), var(--tw-ring-color), var(--tw-gradient-to));
+}
+
+.friingo-bg::before {
+	content: "";
+	display: block;
+	height: 100%;
+	background: var(--tw-shadow-color);
+	-webkit-mask: linear-gradient(to bottom, #0000, #000);
+	mask: linear-gradient(to bottom, #0000, #000);
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+	display: none;
+}
+
+.scollbar-hidden {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.text-gradient-to-r {
+	background: linear-gradient(to right, var(--tw-gradient-from), var(--tw-gradient-to));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
